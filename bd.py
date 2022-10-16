@@ -16,7 +16,7 @@ sex="""\033[1;32;36m
 print(sex)
 
 
-ok = "h0rn3t sp1d3rs"
+ok = str(input("\033[1;33;40m Enter Your Url:\033[1;35;40m "))
 
 for i in search(ok, tld="co.in", num=5, stop=5, pause=2):
     print(i)
